@@ -37,7 +37,7 @@ Let's take a look at our Phase 0:
 
 First and foremost, we are going to need to initialize node. 
 
-- So let's cd into our backend folder and the run : 
+- So let's cd into our backend folder and then run : 
         
     >> npm init -y
 
