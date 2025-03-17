@@ -21,7 +21,7 @@ This needs to be the initial structure for your repository. This stuff CANNOT be
 
 Keep in mind github does not track empty folders so in both of the backend and frontend folders, I have kept a .keep file for the sake of pushing but feel free to remove those files once those folders have been filled with content/files.
 
-Let's take a look at our .gitignore file : 
+Let's take a quick look at our .gitignore file : 
 
 ```.gitignore
 node_modules
@@ -31,9 +31,9 @@ build
 *.db
 ```
 
-Let's take a quick look at our .gitignore. Just some files we don't want to push up to our github repo. Like our .env file where we are storing some potentially sensitive information like SECRET KEYS, our node_modules and our local sqlite3 databse. 
+Just some files we don't want to push up to our github repo. Like our .env file where we are storing some potentially sensitive information like SECRET KEYS, our node_modules and our local sqlite3 databse. 
 
-Let's take a look our Phase 0: 
+Let's take a look at our Phase 0: 
 
 First and foremost, we are going to need to initialize node. 
 
